@@ -1,0 +1,187 @@
+		body{
+		background:maroon;
+		}
+	#mainblock{
+		width:90%;
+		min-height:600px;
+		background:white;
+		margin:auto;
+	}
+	
+	#topblock{
+		height:70px;
+	}
+	
+#menublock{
+	min-height:30px;
+	padding:5px;
+	background:orange;
+	text-align:center;
+}
+
+#midblock{
+	min-height:400px;
+}
+
+#footerblock{
+	min-height:100px;
+	background:grey;
+	text-align:center;
+}
+
+#logo{
+   height:50px;
+   width:100px;
+   border-radius:5px;
+   margin:10px;
+}
+
+#topright{
+	float:right;
+	margin:25px;
+}
+
+#topright a{
+	color:blue;
+	font-size:16px;
+	margin-left:25px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+ ul{
+	list-style-type:none;
+ }
+
+ ul li{
+ display:inline;
+ margin:25px;}
+ 
+ul li a{
+		color:blue;
+		font-size:22px;
+		font-weight:bold;
+		text-decoration:none;
+		}
+ul li a:hover{
+	color:black;
+}
+
+	#mytable{
+			width:auto;
+			height:auto;
+			padding:25px;
+			background:skyblue;
+			border-radius:4px 50px 4px 50px;
+			margin:auto;
+		}
+		
+		#mytable caption{
+			font-size:24px;
+			font-style:underline;
+			font-weight:bold;
+			margin:25px;
+			color:blue;
+			text-decoration:underline;
+		}
+		#mytext{
+			color:red;
+		}
+		#inputbox{
+			width:250px;
+			height:30px;
+			padding:5px;
+			border-radis:7px;
+			border:1px solid grey;
+		}
+		
+		#beginputbox{
+			width:250px;
+			padding:5px;
+			border-radis:7px;
+			border:1px solid grey;
+			resize:none;
+		}
+		
+		#inputbox:hover{
+			border:1px solid red;
+		}
+		#inputbox:focus{
+			background:grey;
+			color:red;
+		}
+		
+		#biginputbox:hover{
+			border:1px solid red;
+		}
+		
+		#biginputbox:focus{
+			background:grey;
+			color:red;
+		}
+		
+		button{
+			background:green;
+			color:orange;
+			padding:8px;
+			font-size:18px;
+			font-weight:bold;
+			margin:8px;
+			border:2px solid green;
+		}
+		button:hover{
+			color:blue;
+		}
+		p{
+			padding-left:30px;
+			padding-right:30px;
+		}
+		
+			#userlist{
+		border:1px solid black;
+		border-radius:10px;
+	}
+	
+	#userlist th{
+		background:orange;
+		padding:10px;
+		
+	}
+	
+	#userlist td{
+		border-bottom:1px solid black;
+		text-align:left;
+		
+	}
+	#userlist tr:hover{
+		background-color:grey;
+	}
+	
+	#userlist tr{
+		min-height:40px;
+	}
+	
+	.photodiv{
+	height:150px;
+	width:150px;
+	background-color:blue;
+	border:2px solid yellow;
+	margin-left:15px;
+	float:left;
+	}
+	
+.imagediv{
+		height:100px;
+		width:100px;
+		margin-top:25px;
+		margin-left:25px;
+	}
+	
+	.imagediv:hover{
+		border-radius:15px;
+	}
+	
+	.photodiv:hover{
+		border-radius:15px;
+		}
+
